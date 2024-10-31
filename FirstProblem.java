@@ -2,8 +2,6 @@ import java.util.*;
 
 public class FirstProblem {
 
-    /* Create main method in the FirstProblem class */
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
