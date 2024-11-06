@@ -22,5 +22,6 @@ public class First_NonRepeated_Char {
                 break;
             }
         }
+        sc.close();
     }
 }

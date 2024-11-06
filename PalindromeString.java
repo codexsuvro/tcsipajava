@@ -10,6 +10,7 @@ public class PalindromeString {
                 System.out.println(arr[i]);
             }
         }
+        sc.close();
     }
     public static boolean isPalindrome(String str) {
         boolean same = true;

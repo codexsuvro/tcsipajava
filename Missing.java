@@ -23,5 +23,6 @@ public class Missing {
         for(int number : missingNumbers) {
             System.out.println(number + " ");
         }
+        sc.close();
     }
 }
