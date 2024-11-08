@@ -1,15 +1,19 @@
+package PreviousYear;
 import java.util.*;
 
-public class FindLetterOfEachWord {
+public class CountWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
+        String test = sc.next();
         sc.close();
-        StringBuilder res = new StringBuilder();
+        int c = 0;
         String[] arr = str.split(" ");
         for(int i = 0; i < arr.length; i++) {
-            res.append(arr[i].charAt(0));
+            if(arr[i].equalsIgnoreCase(test)) {
+                c++;
+            }
         }
-        System.out.println(res.toString().toUpperCase());
+        System.out.println(c);
     }
 }
